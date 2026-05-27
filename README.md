@@ -1,6 +1,5 @@
-# signalrx
+# Signalrx
 Converts plain-English questions into drug safety insights using Claude Haiku and Sonnet agents on 1.7M+ real FDA FAERS records
-# SignalRx 🔬
 
 **A multi-agent pharmacovigilance system that detects drug safety signals from FDA FAERS data using natural language.**
 
@@ -141,17 +140,6 @@ signalrx/
 └── docs/
     └── snowflake_setup.sql  # Table definitions and COPY commands
 ```
-
----
-
-## Relevance to Pharma & Life Sciences
-
-This project mirrors real-world pharmacovigilance workflows used at pharmaceutical companies:
-
-- **Signal detection** — identifying drugs with disproportionate adverse event reporting, a core task in drug safety teams
-- **HIPAA-aware architecture** — API keys and credentials stay server-side, never exposed in the browser
-- **MedDRA terminology** — reactions use standardized MedDRA preferred terms as used in regulatory submissions
-- **FAERS familiarity** — the same dataset used by FDA safety reviewers and pharma safety departments globally
 
 ---
 
